@@ -1,0 +1,56 @@
+/************************** Global ***************************/
+
+:root {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+
+}
+
+/* Text Styles */
+.poppins-200 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/********************* Standard Resets ***********************/
+
+
+
+/********************** Test & Debug *************************/
+
+/* * {
+    outline: 1px solid green;
+    background-color: hsl(155, 68%, 71%);
+} */
+
+/*************************************************************/
+
+.footer__background {
+ background-image: url("./assets/tablet/image-footer.jpg");
+ background-repeat: no-repeat;
+}
+
+/************************ Responsive *************************/
+
+/* Tablet (min-width: 768px) */
+@media (min-width: 48rem) {
+
+    .someclass {
+        font-size: 14px;
+        letter-spacing: 0;
+        min-width: 384px;
+        padding: 40px;
+    }
+}
+
+/* Desktop (min-width: 992px) */
+@media (min-width: 62rem) {
+
+    .someclass {
+        font-size: 14px;
+        letter-spacing: 0;
+        min-width: 384px;
+        padding: 40px;
+    }
+}
