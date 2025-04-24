@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/meet-landing-page-W_BPdpvgYz](https://www.frontendmentor.io/solutions/meet-landing-page-W_BPdpvgYz)
 - Live Site URL: [https://mkerr-github.github.io/meet-landing-page/](https://mkerr-github.github.io/meet-landing-page/)
 
 ## My process
