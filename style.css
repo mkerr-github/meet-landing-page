@@ -191,7 +191,7 @@ header {
     transform: translateX(-50%);
     /* Place it above the circle */
     bottom: 100%;
-    width: 0.0625rem;
+    width: 0.03rem;
     height: 5rem;
     /* Match the colour of the text and circle border */
     background-color: var(--slate-600);
