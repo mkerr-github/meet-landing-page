@@ -7,52 +7,63 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Meet landing page</title>
 
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-  <header><img class="header__logo" src="./assets/logo.svg" alt="meet logo"></header>
+  <div class="page-wrapper">
+    <header><img class="header-logo" src="./assets/logo.svg" alt="meet logo"></header>
 
-  <main>
-    <section class="hero">
-      <img src="./assets/desktop/image-hero-left.png" alt="people left">
-      <img src="./assets/desktop/image-hero-right.png" alt="people right">
-      <h1 class="hero__heading">Group Chat for Everyone</h1>
-      <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
-      <div class="button-pair-flex">
-        <button class="button_download">Download v1.3</button>
-        <button class="button_what-is">What is it?</button>
+    <main>
+      <section class="mobile-hero">
+        <div class="hero-background"></div>
+        <div class="hero-info">
+          <div class="bg-left"></div>
+          <div class="bg-right"></div>
+          <h1 class="hero-heading">Group Chat <br>for Everyone</h1>
+          <p class="hero-para">Meet makes it easy to connect with others face-to-face virtually and collaborate across
+            any device.</p>
+          <div class="button-pair-flex">
+            <button class="button-hero button-cyan">Download <span>v1.3</span></button>
+            <button class="button-hero button_what-is button-purple">What is it?</button>
+          </div>
+        </div>
+      </section>
+
+      <article class="feature">
+        <p class="feature-number">01</p>
+        <div class="feature-photoset">
+          <img class="feature-image" src="./assets/desktop/image-woman-in-videocall.jpg" alt="Woman making video call">
+          <img class="feature-image" src="./assets/desktop/image-women-videochatting.jpg" alt="Women video chatting">
+          <img class="feature-image" src="./assets/desktop/image-men-in-meeting.jpg" alt="Men in video meeting">
+          <img class="feature-image" src="./assets/desktop/image-man-texting.jpg" alt="Man texting">
+        </div>
+        <div class="feature-info">
+          <p class="feature-eyebrow">Built for modern use</p>
+          <h2 class="feature-heading">Smarter meetings, all in one place</h2>
+          <p class="feature-text">Send messages, share files, show your screen, and record your meetings — all in one
+            workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p class="feature-number">02</p>
+      <div class="footer-background">
+        <h3 class="footer-header">Experience more together</h3>
+        <p class="footer-text">Stay connected with reliable HD meetings and unlimited one-on-one and group video
+          sessions.</p>
+        <button class="button-hero button-download button-purple footer-button">Download <span>v1.3</span></button>
       </div>
-    </section>
-
-    <article class="feature">
-      <p class="feature__number">01</p>
-      <div class="feature__images">
-      <img src="./assets/desktop/image-woman-in-videocall.jpg" alt="Woman making video call">
-      <img src="./assets/desktop/image-women-videochatting.jpg" alt="Women video chatting">
-      <img src="./assets/desktop/image-men-in-meeting.jpg" alt="Men in video meeting">
-      <img src="./assets/desktop/image-man-texting.jpg" alt="Man texting">
-      </div>
-      <p class="feature__eyebrow">Built for modern use</p>
-      <h2 class="feature__heading">Smarter meetings, all in one place</h2>
-      <p class="feature__text">Send messages, share files, show your screen, and record your meetings — all in one
-        workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
-    </article>
-  </main>
-
-  <footer>
-    <div class="footer__background">
-      <p class="footer__number">02</p>
-      <h3 class="footer__header">Experience more together</h3>
-      <p class="footer__text">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-      <button class="button__download--purple">Download v1.3</button>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
 </body>
-
 </html>
